@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+
+    <head>
+        <title>Main</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="assets/CSS/reset.css" rel="stylesheet">
+        <link href="assets/CSS/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--For original unresponsive html, having a hard-coded footer was fine, but with the media queries, having a pixel-measured top margin isn't working, so transitioning to a sticky footer by wrapping the entire page content within div and placing the footer immediately below the div.-->
+
+        <div class="wrapper">
+
+            <div id="top">
+                <nav>
+                    <h1>Jack Ryan</h1>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li id="center"><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        <!--Defining the main content area of the page-->
+            <div id="content">    
+                <div id="main">
+                    <h1>About Me</h1>
+                    <img src = "assets/images/IMG_0231.JPG" id="main-image" alt="Jack in Iceland">
+                    <p>I am Jack Ryan. I am a writer, a traveller, a lifelong learner
+                and, with any luck, a soon-to-be full stack web designer. I 
+                earned my BA at Kenyon College in rural Ohio, where I studied
+                English with an emphasis on fiction writing, and minored in 
+                Arabic language.<br><br>I am currently an associate at Amazon Fresh
+                in North Denver, a facility that delivers fresh groceries throughout
+                the city. I work in a hectic environment, which brings daily 
+                challenges and lessons in unpredictability. <br><br>When I am neither working nor writing, I'm 
+                often travelling. The photo to the left was taken in Iceland, at the 
+                base of a waterfall which has an inscrutable name that I cannot remember.
+                I found a tremendous deal of inspiration on our family's long ring 
+                road trek around the island, where we saw everything from volcanic craters
+                to growing iceberg lagoons.<br><br>My hobbies include skiing, hiking, and 
+                brewing OK (though admittedly never top quality) beer with my cousin from
+                our ever-increasing line of craft brews, Basement Brewing. So far, our 
+                black IPA "Heart of Darkness" has been the pinnacle of our achievements.
+                    </p>
+                </div>
+                <div class="push"></div>
+            </div>
+        </div>  
+
+        <!--Defining the footer w/content centered. Far less complicated
+        than the nav, I hope.-->
+        <footer>
+            <p>&copy; 2018, Jack Ryan</p>
+        </footer>
+
+    </body>
+</html>
