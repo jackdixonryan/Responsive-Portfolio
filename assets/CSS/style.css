@@ -215,13 +215,17 @@ a:hover {
 }
 
 #one {
-    background-image: url("../images/novel.jpg");
+    background-image: url("../images/word-guess-game-pic.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
+#one h3, #two h3 {
+    font-size: 16px;
+}
+
 #two {
-    background-image: url("../images/newsprint.jpg");
+    background-image: url("../images/glyph-game.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
